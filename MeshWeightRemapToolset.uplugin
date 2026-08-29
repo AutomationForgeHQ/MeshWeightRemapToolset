@@ -1,7 +1,7 @@
 {
   "FileVersion": 3,
   "Version": 1,
-  "VersionName": "0.1.0",
+  "VersionName": "0.1.0\r",
   "FriendlyName": "Mesh Weight Remap Toolset",
   "Description": "Exposes MeshWeightRemap as native Model Context Protocol tools, so a whole folder of garments can be measured and remapped in one pass instead of one right-click at a time. Adapter only; it holds no logic.",
   "Category": "Experimental",
