@@ -1,0 +1,43 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1.0\r",
+  "FriendlyName": "Mesh Weight Remap Toolset",
+  "Description": "Exposes MeshWeightRemap as native Model Context Protocol tools, so a whole folder of garments can be measured and remapped in one pass instead of one right-click at a time. Adapter only; it holds no logic.",
+  "Category": "Experimental",
+  "CreatedBy": "Blackcode",
+  "CreatedByURL": "",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "",
+  "EditorOnly": true,
+  "EnabledByDefault": false,
+  "CanContainContent": false,
+  "IsBetaVersion": false,
+  "IsExperimentalVersion": true,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "MeshWeightRemapToolset",
+      "Type": "Editor",
+      "LoadingPhase": "PostEngineInit",
+      "TargetAllowList": [
+        "Editor"
+      ]
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "MeshWeightRemap",
+      "Enabled": true
+    },
+    {
+      "Name": "ToolsetRegistry",
+      "Enabled": true
+    },
+    {
+      "Name": "ModelContextProtocol",
+      "Enabled": true
+    }
+  ]
+}
