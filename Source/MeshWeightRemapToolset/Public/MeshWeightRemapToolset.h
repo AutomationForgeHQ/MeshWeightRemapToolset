@@ -26,7 +26,7 @@ class MESHWEIGHTREMAPTOOLSET_API UMeshWeightRemapToolset : public UToolsetDefini
 
 public:
 
-	virtual FString GetToolsetVersion() const override { return TEXT("0.1"); }
+	virtual FString GetToolsetVersion() const override { return TEXT("0.1.1"); }
 
 	/**
 	 * Measure what a leader mesh actually drives. Writes nothing.
