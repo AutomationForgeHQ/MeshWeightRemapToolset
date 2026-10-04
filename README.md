@@ -3,7 +3,7 @@
 `MeshWeightRemap` as native Model Context Protocol tools, so an agent can measure and fix a whole
 folder of garments in one pass instead of one right-click at a time.
 
-**Version 0.1.1. Experimental.**
+<!-- forge:version -->**Version 0.1.2. Experimental.**<!-- /forge:version -->
 
 **Adapter only.** It holds no logic — every tool forwards to `UMeshWeightRemapSubsystem` and turns a
 failure into a script error. The reason it is a separate plugin is that `ToolsetRegistry` and

@@ -26,7 +26,15 @@ class MESHWEIGHTREMAPTOOLSET_API UMeshWeightRemapToolset : public UToolsetDefini
 
 public:
 
-	virtual FString GetToolsetVersion() const override { return TEXT("0.1.1"); }
+	/**
+	 * The version an agent is told it is talking to, read from this plugin's own descriptor.
+	 *
+	 * Defined in the .cpp deliberately. UE_PLUGIN_NAME is a private UBT definition, correct
+	 * only inside this module; a body here in a public header would resolve it to whichever
+	 * plugin included the header. Nothing in this class is a second copy of the version, so
+	 * there is nothing here that can drift from it.
+	 */
+	virtual FString GetToolsetVersion() const override;
 
 	/**
 	 * Measure what a leader mesh actually drives. Writes nothing.
