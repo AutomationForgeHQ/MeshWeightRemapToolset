@@ -1,3 +1,10 @@
+<!-- kovati:header -->
+<p align="center"><a href="https://kovati.dev/characters/"><img src="https://raw.githubusercontent.com/AutomationForgeHQ/.github/main/profile/assets/meshweightremap.jpg" width="100%" alt="MeshWeightRemap, part of Kovati" /></a></p>
+
+<p align="center"><b>Agent toolset for MeshWeightRemap</b> · Part of <a href="https://kovati.dev"><b>Kovati</b></a>, production tools for Unreal games · <a href="https://kovati.dev/characters/">Characters</a><br />
+<a href="https://kovati.dev/characters/">Product page</a> · <a href="https://docs.kovati.dev">Documentation</a> · <a href="https://kovati.dev/download/">Install with the Kovati Hub</a> · <a href="https://kovati.dev/discord">Discord</a></p>
+<!-- /kovati:header -->
+
 # Mesh Weight Remap Toolset
 
 `MeshWeightRemap` as native Model Context Protocol tools, so an agent can measure and fix a whole
